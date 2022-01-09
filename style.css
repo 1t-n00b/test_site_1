@@ -102,6 +102,55 @@ main	.main_about {
 
 }
 
+.our_team {
+	background-color: #000;
+	color: #ffffff;
+	display: grid;
+
+	grid-template-rows: 300px 1fr ;
+	grid-template-areas:
+"line line line line"
+"peoples peoples peoples peoples";
+	justify-items: center;
+}
+.team_line {
+	grid-area: line;
+	margin: 100px auto;
+}
+.peoples {
+	width: 76%;
+	grid-area: peoples;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	text-align: center;
+	margin-bottom: 150px;
+}
+.person {
+	display: grid;
+	justify-items: center;
+}
+.person_name {
+	font-size: 20px;
+}
+.profession {
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+.about_person {
+ font-size: 	12px;
+}
+.photo {
+	width: 125px;
+	height: 125px;
+	background-color: #999999;
+	border-radius: 100px;
+	margin-bottom: 20px;
+}
+
+
+
+
 
 
 
