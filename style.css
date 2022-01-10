@@ -144,6 +144,53 @@ main	.main_about {
 	border-radius: 100px;
 	margin-bottom: 20px;
 }
+.our_services {
+	width: 80%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-rows: 220px 70px 400px;
+	grid-template-areas:
+	"heading heading heading heading"
+	"about about about about"
+	"item item item item";
+	justify-items: center;
+
+}
+.servis_heading {
+	grid-area: heading;
+	font-size: 44px;
+	padding-top: 50px;
+}
+.about_services {
+	grid-area: about;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: inherit;
+}
+.serv_group {
+	width: 80%;
+	grid-area: item;
+	display: grid;
+	grid-template-columns: repeat(4, 300px);
+	justify-content: center;
+	padding-top: 80px;
+	column-gap: 60px;
+}
+.services_item {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.services_item img {
+	margin-bottom: 20px;
+}
+ .service h3{
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.service_about {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
 
 
 
