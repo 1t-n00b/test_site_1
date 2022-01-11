@@ -191,6 +191,23 @@ main	.main_about {
 	font-size: 14px;
 	margin-bottom: 20px;
 }
+.block_clients {
+	text-align: center;
+	background-color: black;
+	color: white;
+	display: grid;
+	grid-template-rows: repeat(2, 250px);
+	justify-content: center;
+	align-items: center;
+	font-size: 44px;
+}
+.clients {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-column-gap: 50px;
+}
+
+
 
 
 
