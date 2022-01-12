@@ -206,7 +206,52 @@ main	.main_about {
 	grid-template-columns: repeat(5, 1fr);
 	grid-column-gap: 50px;
 }
+.portfolio {
+	margin: 50px	auto;
+	width: 80%;
+	display: grid;
+	grid-template-rows: 150px 100px 2fr;
+	text-align: center;
+	grid-auto-rows: 50px;
+}
+.portfolio_image {
+	display: grid;
+	grid-template-columns: repeat(4,270px);
+	grid-gap: 30px;
+	justify-content: center;
+}
+.portfolio_title {
+	text-transform: uppercase;
+	font-size: 44px;
+	font-weight: 300;
+	margin-bottom: 300px ;
+}
+.portfolio_text {
+	font-size: 16px;
+	font-weight: normal;
+}
 
+.testimonials {
+	display: grid;
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+.testimonials_title {
+	text-transform: uppercase;
+	font-size: 44px;
+	font-weight: 600;
+	margin: 100px auto;
+	background-color: black;
+}
+.testimonials_text {
+	font-size: 18px;
+	background-color: black;
+}
+.testimonials_ceo {
+	margin-top: 50px;
+	padding-bottom: 100px;
+}
 
 
 
