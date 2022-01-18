@@ -86,7 +86,7 @@ main	.main_about {
 }
 .about_right h1{
 	 display: inline-block;
-	border-bottom: 3px solid #fcac45;
+
 	padding-bottom: 20px;
 }
 .about_right p {
@@ -292,10 +292,10 @@ input[type=submit] {
 	margin: 20px 0 0 0;
 
 }
-.contact_form h1,p {
+.contact_form h2,p {
 	text-align: center;
 }
-.contact_form h1 {
+.contact_form h2 {
 	color: black;
 	margin-bottom: 30px;
 }
@@ -304,6 +304,29 @@ input[type=submit] {
 }
 .contact_form p {
 	text-align: left;
+}
+h2:after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	padding-top: 30px;
+	border-bottom: 3px solid #fcac45;
+}
+
+footer {
+	background-color: #222;
+	height: 80px;
+}
+.social {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.social img {
+	padding-left: 30px;
+	padding-top: 30px;
 }
 
 
